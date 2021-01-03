@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ClickEvent = () => {
+const ClickEventFunc = () => {
 
   const clickHandler = () => {
-    console.log('button cliecked!')
+    console.log('button clicked from functional component!')
   }
   return (
     <div>
@@ -12,4 +12,4 @@ const ClickEvent = () => {
   )
 }
 
-export default ClickEvent
+export default ClickEventFunc
