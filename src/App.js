@@ -4,6 +4,7 @@ import WelcomeCls from './Components/WelcomeCls'
 import ClickEventFunc from './Components/ClickEventFunc'
 import ClickEventCls from './Components/ClickEventCls'
 import Bindeventcls from './Components/BindEventCls'
+import ParentCompCls from './Components/ParentCompCls'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ClickEventFunc></ClickEventFunc>
       <ClickEventCls></ClickEventCls>
       <Bindeventcls></Bindeventcls>
+      <ParentCompCls></ParentCompCls>
     </div>
   );
 }
