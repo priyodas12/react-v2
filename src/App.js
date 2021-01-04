@@ -1,7 +1,8 @@
 import './App.css';
-import ConditionalOperationCls from './Components/ConditionalOperationCls';
+import IterateElement from './Components/IterateElement';
 // eslint-disable-next-line no-lone-blocks
 {/*import WelcomeFunc from './Components/WelcomeFunc'
+import ConditionalOperationCls from './Components/ConditionalOperationCls';
 import WelcomeCls from './Components/WelcomeCls'
 import ClickEventFunc from './Components/ClickEventFunc'
 import ClickEventCls from './Components/ClickEventCls'
@@ -17,8 +18,9 @@ function App() {
       <ClickEventFunc></ClickEventFunc>
       <ClickEventCls></ClickEventCls>
       <Bindeventcls></Bindeventcls>
-      <ParentCompCls></ParentCompCls>*/}
-      <ConditionalOperationCls></ConditionalOperationCls>
+      <ParentCompCls></ParentCompCls>
+      <ConditionalOperationCls></ConditionalOperationCls>*/}
+      <IterateElement></IterateElement>
     </div>
   );
 }
